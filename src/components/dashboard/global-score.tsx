@@ -12,7 +12,7 @@ export function GlobalScore({ score, alerts }: GlobalScoreProps) {
   return (
     <div className="flex flex-col items-center gap-4 py-8">
       <ScoreRing score={score} size={200} strokeWidth={10} label={getScoreLabel(score)} />
-      <h2 className="text-sm font-medium text-muted-foreground">Global Signal Score</h2>
+      <h2 className="text-sm font-medium text-muted-foreground">Score Global des Signaux</h2>
       {alerts.length > 0 && (
         <div className="w-full max-w-md space-y-1.5">
           {alerts.map((alert, i) => (

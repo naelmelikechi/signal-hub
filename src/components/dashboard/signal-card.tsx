@@ -7,10 +7,10 @@ import type { SignalScore } from "@/types";
 import { TrendingUp, Target, Calendar, Heart } from "lucide-react";
 
 const SOURCE_CONFIG = {
-  crypto: { icon: TrendingUp, href: "/crypto", title: "Crypto Momentum" },
-  predictions: { icon: Target, href: "/predictions", title: "Prediction Markets" },
-  macro: { icon: Calendar, href: "/macro", title: "Macro Calendar" },
-  sentiment: { icon: Heart, href: "/", title: "Market Sentiment" },
+  crypto: { icon: TrendingUp, href: "/crypto", title: "Momentum Crypto" },
+  predictions: { icon: Target, href: "/predictions", title: "Marches Predictifs" },
+  macro: { icon: Calendar, href: "/macro", title: "Calendrier Macro" },
+  sentiment: { icon: Heart, href: "/", title: "Sentiment du Marche" },
 } as const;
 
 interface SignalCardProps {

@@ -1,0 +1,14 @@
+{
+  "running": true,
+  "mode": "paper",
+  "capital": 200,
+  "initialCapital": 200,
+  "openPositions": [],
+  "tradeHistory": [],
+  "totalPnl": 0,
+  "totalTrades": 0,
+  "winRate": 0,
+  "lastCheck": "2026-04-02T16:01:20.957Z",
+  "circuitBreakerTriggered": false,
+  "recentTrades": []
+}

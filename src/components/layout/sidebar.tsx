@@ -9,6 +9,7 @@ import {
   Target,
   Calendar,
   Wallet,
+  Bot,
 } from "lucide-react";
 
 const ICONS = {
@@ -17,6 +18,7 @@ const ICONS = {
   Target,
   Calendar,
   Wallet,
+  Bot,
 } as const;
 
 export function Sidebar() {

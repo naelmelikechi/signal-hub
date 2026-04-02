@@ -38,7 +38,7 @@ export default function DashboardPage() {
   return (
     <div className="p-6 md:p-8 space-y-8">
       <div>
-        <h1 className="text-lg font-semibold tracking-tight">Dashboard</h1>
+        <h1 className="text-lg font-semibold tracking-tight">Tableau de Bord</h1>
         <p className="text-xs text-muted-foreground mt-0.5">
           Derniere mise a jour : {new Date(data.timestamp).toLocaleTimeString("fr-FR")}
         </p>

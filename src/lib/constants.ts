@@ -48,11 +48,12 @@ export const POLL_INTERVALS = {
 
 // Navigation items
 export const NAV_ITEMS = [
-  { label: "Dashboard", href: "/", icon: "LayoutDashboard" },
+  { label: "Tableau de bord", href: "/", icon: "LayoutDashboard" },
   { label: "Crypto", href: "/crypto", icon: "TrendingUp" },
   { label: "Predictions", href: "/predictions", icon: "Target" },
   { label: "Macro", href: "/macro", icon: "Calendar" },
   { label: "Portfolio", href: "/portfolio", icon: "Wallet" },
+  { label: "Bot", href: "/bot", icon: "Bot" },
 ] as const;
 
 // Score color mapping
@@ -69,9 +70,10 @@ export function getScoreBg(score: number): string {
 }
 
 export function getScoreLabel(score: number): string {
-  if (score >= 80) return "Very Bullish";
-  if (score >= 60) return "Bullish";
-  if (score >= 40) return "Neutral";
-  if (score >= 20) return "Bearish";
-  return "Very Bearish";
+  if (score >= 80) return "Tres Haussier";
+  if (score >= 60) return "Haussier";
+  if (score >= 40) return "Neutre";
+  if (score >= 20) return "Baissier";
+  return "Tres Baissier";
 }
+
